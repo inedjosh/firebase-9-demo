@@ -146,3 +146,5 @@ login.addEventListener("submit", (e) => {
 const unSubAuth = onAuthStateChanged(auth, (user) => {
   console.log("state change:", user);
 });
+
+// making future updates
